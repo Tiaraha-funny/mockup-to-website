@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "heading";
+    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+         url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;     
+  }
+
+@font-face {
+    font-family: "paragraph";
+    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+         url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;     
+  }

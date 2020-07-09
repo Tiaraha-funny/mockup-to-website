@@ -1,11 +1,9 @@
 .features {
-
+    background-color: rgba(237, 237, 245, 0.603);
 }
-
+/* 
 .features__sitehead__heading {
     background-image: url('../img/logo_sports_colour.svg');
     background-repeat: no-repeat;
-}
-.features__sitehead__title--link > span {
-    display: none;
-}
+    color: rgba(237, 237, 245, 0.603);
+} */

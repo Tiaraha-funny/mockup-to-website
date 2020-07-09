@@ -1,0 +1,42 @@
+.features__masthead {
+    display: block;
+    text-align: center;
+}
+
+h2.features__masthead__heading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+}
+/* 
+@font-face {
+    font-family: lato, Arial, Helvetica, sans-serif;
+    font-size: 400;
+} */
+
+p.features__masthead--description {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+ul.features__masthead--lists {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+li.features__masthead--lists--items {
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a.features__masthead--icon {
+    text-decoration: none;
+    justify-content: space-between;
+}

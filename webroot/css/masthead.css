@@ -1,6 +1,8 @@
 .features__masthead {
     display: block;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 h2.features__masthead__heading {
@@ -28,15 +30,16 @@ p.features__masthead--description {
 ul.features__masthead--lists {
     display: inline-flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 li.features__masthead--lists--items {
     list-style: none;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
 }
 
-a.features__masthead--icon {
+a.features__masthead--svg--images {
     text-decoration: none;
     justify-content: space-between;
 }

@@ -7,3 +7,9 @@
     width: 145.69px;
     height: 44px;
 }
+
+@media (min-width: 1440px) {
+    img.advertisement__phones {
+        min-width: max-content;
+    }
+}

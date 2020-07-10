@@ -3,11 +3,30 @@
 }
 
 .features__main {
-    
+    text-align: center;
 }
 
-@media (min-width: 1440px) {
+.advertisement {
+    display: none;
+}
 
+@media (min-width: 1040px) {
 
-    
+.features {
+    text-align: start;
+    margin-inline-start: 5rem;
+}
+
+.features__main {
+    margin-block-start: 2rem;
+    text-align: start;
+    float: left;
+    width: 40%;
+}
+
+.advertisement {
+    display: block;
+    float: right;
+    width: 50%;
+}
 }

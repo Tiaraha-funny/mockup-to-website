@@ -6,19 +6,13 @@
 }
 
 h2.features__masthead__heading {
-    font-family: heading;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
+    font-family: Lanto;
     line-height: 40px;
     letter-spacing: 0.03em;
 }
 
 p.features__masthead--description {
-    font-family: paragraph;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+    font-family: Lanto;
     line-height: 23px;
 }
 

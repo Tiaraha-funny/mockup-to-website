@@ -10,7 +10,7 @@
     display: none;
 }
 
-@media (min-width: 1040px) {
+@media (min-width: 1440px) {
 
 .features {
     text-align: start;
@@ -19,6 +19,7 @@
 
 .features__main {
     margin-block-start: 2rem;
+    margin-inline-start: 5rem;
     text-align: start;
     float: left;
     width: 40%;

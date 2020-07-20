@@ -10,6 +10,6 @@
 
 @media (min-width: 1440px) {
     img.advertisement__phones {
-        min-width: max-content;
+        min-width: 100%;
     }
 }

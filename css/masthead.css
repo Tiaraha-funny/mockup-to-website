@@ -38,5 +38,15 @@ a.features__masthead--svg--images {
 @media (min-width:1440px) {
     a.features__masthead--svg--images--apple--link {
     margin-left: -2.5rem;
-  }s
+  }
+
+  h2.features__masthead__heading {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  p.features__masthead--description {
+    font-size: 1.5rem;
+    line-height: 4rem;
+  }
 }

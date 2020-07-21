@@ -1,16 +1,24 @@
 
 @font-face {
-     font-family: "lanto";
-     src: url("/webroot/fonts/lato-bold\ \(1\).woff2") format("woff2"),
-          url("/webroot/fonts/lato-bold\ \(1\).woff") format("woff");
+     font-family: mylato;
+     src: local('Lato Bold'),
+          local('Lato-Bold'),
+          local('lato bold'),
+          local('lato-bold'),
+          url("/webroot/fonts/lato-bold.woff2") format("woff2"),
+          url("/webroot/fonts/lato-bold.woff") format("woff");
      font-style: normal;
      font-weight: 700;
    }
 
  @font-face {
-     font-family: "lanto";
-     src: url("/webroot/fonts/lato-light.woff2") format("woff2"),
+     font-family: mylato;
+     src: local('Lato Regular'),
+          local('lato-regular'),
+          local('lato regular'),
+          local('Lato-Regular'),
+          url("/webroot/fonts/lato-light.woff2") format("woff2"),
           url("/webroot/fonts/lato-light.woff") format("woff");
      font-style: normal;
-     font-weight: 700;
+     font-weight: 400;
    }

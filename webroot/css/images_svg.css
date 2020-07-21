@@ -10,7 +10,7 @@
 
 @media (min-width: 1440px) {
     img.advertisement__phones {
-      margin-inline-start: -3rem;
+      margin-inline-start: 3rem;
       margin-block-start: -12rem;
     }
 

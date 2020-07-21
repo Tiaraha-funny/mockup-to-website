@@ -9,12 +9,14 @@ h2.features__masthead__heading {
     line-height: 40px;
     font-size: 30px;
     letter-spacing: 0.03em;
+    color: #333333;
 }
 
 p.features__masthead--description {
     font-family: mylato;
     line-height: 23px;
     font-size: 18px;
+    color: #4F4F4F;
 }
 
 ul.features__masthead--lists {

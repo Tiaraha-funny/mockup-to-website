@@ -43,12 +43,12 @@
   }
 
   .features__masthead__heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 4rem;
   }
 
   .features__masthead--description {
     font-size: 1.5rem;
-    line-height: 4rem;
+    line-height: 3rem;
   }
 }

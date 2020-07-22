@@ -14,20 +14,18 @@
 
 .features {
     text-align: start;
-    margin-inline-start: 5rem;
+    margin: auto;
+    background-image: url(../img/bg_header.png);
+    background-repeat: no-repeat;
+    background-position: 44rem, 50%;
 }
 
 .features__main {
     margin-block-start: 2rem;
-    margin-inline-start: 2rem;
+    margin-inline-start: 10rem;
     text-align: start;
     float: left;
-    width: 47%;
+    max-width: 40rem;
 }
 
-.advertisement {
-    display: block;
-    float: right;
-    width: 50%;
-}
 }

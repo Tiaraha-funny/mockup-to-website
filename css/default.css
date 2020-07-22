@@ -17,7 +17,7 @@
     margin: auto;
     background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-position: 44rem, 50%;
+    background-position: 130%;
 }
 
 .features__main {
@@ -25,7 +25,7 @@
     margin-inline-start: 10rem;
     text-align: start;
     float: left;
-    max-width: 40rem;
+    max-width: 36rem;
 }
 
 }

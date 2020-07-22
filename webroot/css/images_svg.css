@@ -9,11 +9,9 @@
 }
 
 @media (min-width: 1440px) {
-    .advertisement__phones {
-      margin-block-start: -12rem;
-    }
 
-    .features__images {
-      margin-bottom: 10rem;
-    }
+
+  .features__images {
+    margin-bottom: 6rem;
+  }
 }

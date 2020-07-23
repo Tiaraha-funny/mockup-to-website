@@ -1,0 +1,105 @@
+@font-face {
+  font-family: mylato;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("lato-regular"), url(../fonts/lato-regular.woff2) format("woff2"), url(../fonts/lato-regular.woff) format("woff"); }
+
+@font-face {
+  font-family: mylato;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("lato-bold"), url(../fonts/lato-bold.woff2) format("woff2"), url(../fonts/lato-bold.woff) format("woff"); }
+
+.features {
+  background-color: #F4F6F9; }
+
+.features__main {
+  text-align: center;
+  background-color: #F4F6F9; }
+
+.advertisement {
+  display: none; }
+
+@media (min-width: 1440px) {
+  .features__main {
+    max-width: 1370px;
+    margin-inline-start: auto;
+    margin-inline-end: auto; }
+  .features__main--heading {
+    background-image: url(../img/bg_header.png);
+    background-repeat: no-repeat;
+    background-position-x: 540px;
+    background-position-y: -192px; }
+  .features__container {
+    margin-block-start: 2rem;
+    margin-inline-start: 2rem;
+    max-width: 600px;
+    text-align: start;
+    padding-bottom: 200px; } }
+
+.features__sitehead__heading {
+  text-align: center; }
+
+@media (min-width: 1440px) {
+  .features__sitehead {
+    text-align: start; }
+  .features__sitehead__heading {
+    text-align: start;
+    margin: 0; } }
+
+.features__masthead {
+  display: block;
+  padding: 0;
+  margin: 0; }
+
+.features__masthead__heading {
+  font-family: mylato;
+  line-height: 40px;
+  font-size: 30px;
+  letter-spacing: 0.03em;
+  color: #333333; }
+
+.features__masthead--description {
+  font-family: mylato;
+  line-height: 23px;
+  font-size: 18px;
+  color: #4F4F4F; }
+
+.features__masthead--lists {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.features__masthead--lists--items {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.features__masthead--svg--images {
+  text-decoration: none;
+  justify-content: space-between;
+  margin-right: 1rem; }
+
+@media (min-width: 1440px) {
+  .features__masthead--svg--images--apple--link {
+    margin-left: 0;
+    text-align: start; }
+  .features__masthead__heading {
+    font-size: 2.6rem;
+    line-height: 4rem; }
+  .features__masthead--description {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    max-width: 35rem; } }
+
+.features__images {
+  width: 120px;
+  height: 60px; }
+
+.svg__links {
+  max-width: 100%;
+  max-height: 100%; }
+
+@media (min-width: 1440px) {
+  .features__images {
+    margin-bottom: 6rem; } }

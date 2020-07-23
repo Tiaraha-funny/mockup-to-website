@@ -1,3 +1,28 @@
+# Install node modules
+Use : ** 'npm i'**
+
+But if you are the beginer (have nothing) you need to follow these steps:
+## Go to the  bash terminal and follow these instruction
+  - which sass
+  - cd/code/scss/experiment
+  - ls
+  - npm init (to start to create the package.janson)
+  - npm i -D node-sass (devdependency)
+  - git status
+  - code .  (do not add node-modules and create a new file **.gitignore** in the base, then put node_modules inside the **.gitignore** to ignore the node modules)
+  - when the package.janson is created: set this code inside it
+
+    **"scripts": {
+    "css": "node-sass scss -o webroot/css",** (create first)
+
+    **"css:watch": "npm run css && node-sass scss -w -o webroot/css"** (create later)
+  }
+  - In the terminal in VS, we need to run css by using: npm run css for css and npm run css:watch for the watch
+
+## Run CSS
+'npm run css:watch'
+
+
 # Front-end assessment
 
 A mockup-to-website example to be used as an assessment

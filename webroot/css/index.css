@@ -62,13 +62,14 @@
 .features__masthead--description {
   font-family: mylato;
   line-height: 23px;
-  font-size: 18px;
-  color: #4F4F4F; }
+  font-size: 16px;
+  color: #333333; }
 
 .features__masthead--lists {
   display: inline-flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-left: -40px; }
 
 .features__masthead--lists--items {
   list-style: none;
@@ -83,7 +84,8 @@
 @media (min-width: 1440px) {
   .features__masthead--svg--images--apple--link {
     margin-left: 0;
-    text-align: start; }
+    text-align: start;
+    left: -2rem; }
   .features__masthead__heading {
     font-size: 2.6rem;
     line-height: 4rem; }
@@ -91,6 +93,9 @@
     font-size: 1.5rem;
     line-height: 3rem;
     max-width: 35rem; } }
+
+.features__masthead--lists {
+  justify-content: left; }
 
 .features__images {
   width: 120px;

@@ -1,5 +1,7 @@
+@import "variable";
+
 @font-face {
-  font-family: mylato;
+  font-family: $font-family;
   font-style: normal;
   font-weight: 400;
   src: local('Lato Regular'),

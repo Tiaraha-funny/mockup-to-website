@@ -1,3 +1,5 @@
+@import "variable";
+
 .features__masthead {
     display: block;
     padding: 0;
@@ -5,24 +7,25 @@
 }
 
 .features__masthead__heading {
-    font-family: mylato;
+    font-family: $font-family;
     line-height: 40px;
     font-size: 30px;
     letter-spacing: 0.03em;
-    color: #333333;
+    color: $color;
 }
 
 .features__masthead--description {
-    font-family: mylato;
+    font-family: $font-family;
     line-height: 23px;
-    font-size: 18px;
-    color: #4F4F4F;
+    font-size: 16px;
+    color: $color;
 }
 
 .features__masthead--lists {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: -40px;
 }
 
 .features__masthead--lists--items {
@@ -41,6 +44,7 @@
   .features__masthead--svg--images--apple--link {
     margin-left: 0;
     text-align: start;
+    left: -2rem;
   }
 
   .features__masthead__heading {
@@ -53,4 +57,8 @@
     line-height: 3rem;
     max-width: 35rem;
   }
+}
+
+.features__masthead--lists {
+  justify-content: left;
 }

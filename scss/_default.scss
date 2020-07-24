@@ -1,10 +1,12 @@
- .features {
-  background-color: #F4F6F9;
+@import "variable";
+
+.features {
+  background-color: $background;
 }
 
 .features__main {
   text-align: center;
-  background-color: #F4F6F9;
+  background-color: $background;
 }
 
 .advertisement {

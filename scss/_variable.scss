@@ -1,5 +1,46 @@
 $font-family: mylato;
 $color : #333333;
 $color-p: #4F4F4F;
-$font_face:(url:'../fonts/lato-regular');
 $background: #F4F6F9;
+$query-deskt: 1440px;
+$max-width: 1370px;
+$px-size: 100px;
+
+//font-face for the bold
+
+$filename-bold: 'lato-bold';
+$path-bold: '../fonts/';
+$extension-bold1: '.woff';
+$format-bold1: 'woff';
+$extension-bold2: '.woff2';
+$format-bold2: 'woff2';
+
+// font-face of the regular
+
+$filename-regular: 'lato-regular';
+$path-regular: '../fonts/';
+$extension-regular1: '.woff';
+$format-regular1: 'woff';
+$extension-regular2: '.woff2';
+$format-regular2: 'woff2';
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+}
+
+//max-wid the all the svg needed
+@mixin reset-max-width {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+//all the auto things
+@mixin reset-margin-auto {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+@mixin reset-margin-rems {
+  margin-block-start: 2rem;
+  margin-inline-start: 2rem;
+}

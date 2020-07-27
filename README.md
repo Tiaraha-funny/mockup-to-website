@@ -22,6 +22,8 @@ But if you are the beginer (have nothing) you need to follow these steps:
 ## Run CSS
 'npm run css:watch'
 
+## Suporter
+Sass suport parameters with container
 
 # Front-end assessment
 

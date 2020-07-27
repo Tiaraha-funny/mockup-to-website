@@ -13,28 +13,26 @@
   display: none;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $query-deskt) {
 
   .features__main {
-    max-width: 1370px;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
+    max-width: $max-width;
+    @include reset-margin-auto;
 }
 
   .features__main--heading {
     background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-position-x: 540px;
+    background-position-x: $px-size + 440px;
     background-position-y: -192px;
 
   }
 
-.features__container {
-  margin-block-start: 2rem;
-  margin-inline-start: 2rem;
-  max-width: 600px;
-  text-align: start;
-  padding-bottom: 200px;
-}
+  .features__container {
+    @include reset-margin-rems;
+    max-width: $max-width - 770px;
+    text-align: start;
+    padding-bottom: $max-width - 1170px;
+  }
 
 }

@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-@media (min-width:1440px) {
+@media (min-width: $query-deskt) {
 
 .features__sitehead {
     text-align: start;

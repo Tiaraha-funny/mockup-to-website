@@ -10,29 +10,39 @@
   font-weight: 700;
   src: local("Lato Bold"), local("lato-bold"), url(../fonts/lato-bold.woff2) format(woff2), url(../fonts/lato-bold.woff) format(woff); }
 
-.features {
-  background-color: #F4F6F9; }
+img {
+  max-width: 100%;
+  max-height: 100%; }
 
-.features__main {
+ul {
+  list-style: none; }
+
+main {
+  text-align: center; }
+
+h3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
   text-align: center;
-  background-color: #F4F6F9; }
+  color: #333333; }
 
-.advertisement {
-  display: none; }
+p {
+  font-family: mylato;
+  line-height: 23px;
+  font-size: 16px;
+  color: #333333; }
 
 @media (min-width: 1440px) {
   .features__main {
     max-width: 1370px;
     margin-inline-start: auto;
     margin-inline-end: auto; }
-  .features__main--heading {
-    background-image: url(../img/bg_header.png);
-    background-repeat: no-repeat;
-    background-position-x: 540px;
-    background-position-y: -192px; }
   .features__container {
     margin-block-start: 2rem;
-    margin-inline-start: 2rem;
+    margin-inline-start: 6rem;
     max-width: 600px;
     text-align: start;
     padding-bottom: 200px; } }
@@ -46,6 +56,9 @@
   .features__sitehead__heading {
     text-align: start;
     margin: 0; } }
+
+.features__main--heading {
+  background-color: #F4F6F9; }
 
 .features__masthead {
   display: block;
@@ -81,12 +94,40 @@
   justify-content: space-between;
   margin-right: 1rem; }
 
+.start-learn {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #00ADEE;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 150px; }
+
+.learn_more {
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: lowercase; }
+
 @media (min-width: 1440px) {
   .features__masthead--svg--images--apple--link {
     margin-left: 0;
     text-align: start;
     left: -2rem; }
+  .features__container {
+    margin-block-start: 2rem;
+    margin-inline-start: 6rem;
+    max-width: 600px;
+    text-align: start;
+    padding-bottom: 200px; }
+  .features__main--heading {
+    background-image: url(../img/bg_header.png);
+    background-repeat: no-repeat;
+    background-position-x: 540px;
+    background-position-y: -192px;
+    background-color: #F4F6F9; }
   .features__masthead__heading {
+    background-color: #F4F6F9;
     font-size: 2.6rem;
     line-height: 4rem; }
   .features__masthead--description {
@@ -104,6 +145,15 @@
   max-width: 100%;
   max-height: 100%; }
 
+.football__player--image {
+  background-image: url(../webroot/img/screen-shot-liverpool.png); }
+
 @media (min-width: 1440px) {
   .features__images {
     margin-bottom: 6rem; } }
+
+.article__interface {
+  margin-top: -50px; }
+
+icon__list li {
+  margin-top: 50px; }

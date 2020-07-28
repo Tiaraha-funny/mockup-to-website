@@ -9,6 +9,12 @@
   @include reset-max-width;
 }
 
+.football__player {
+}
+.football__player--image {
+  background-image: url(../webroot/img/screen-shot-liverpool.png);
+}
+
 @media (min-width: $query-deskt) {
 
   .features__images {

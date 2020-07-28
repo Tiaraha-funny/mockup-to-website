@@ -1,16 +1,34 @@
 @import "variable";
 
-.features {
-  background-color: $background;
+img {
+  @include reset-max-width;
 }
 
-.features__main {
+ul {
+  list-style: none;
+}
+
+main {
   text-align: center;
-  background-color: $background;
+}
+article {
+
+}
+h3 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #333333;
 }
 
-.advertisement {
-  display: none;
+p {
+  font-family: $font-family;
+  line-height: 23px;
+  font-size: 16px;
+  color: $color;
 }
 
 @media (min-width: $query-deskt) {
@@ -19,14 +37,6 @@
     max-width: $max-width;
     @include reset-margin-auto;
 }
-
-  .features__main--heading {
-    background-image: url(../img/bg_header.png);
-    background-repeat: no-repeat;
-    background-position-x: $px-size + 440px;
-    background-position-y: -192px;
-
-  }
 
   .features__container {
     @include reset-margin-rems;

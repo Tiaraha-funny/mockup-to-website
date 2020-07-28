@@ -1,5 +1,9 @@
 @import "variable";
 
+.features__main--heading {
+  background-color: $background;
+}
+
 .features__masthead {
   display: block;
   @include reset-list;
@@ -38,6 +42,22 @@
   margin-right: 1rem;
 }
 
+.start-learn {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  color: #00ADEE;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 150px;
+}
+.learn_more {
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: lowercase;
+}
+
 @media (min-width: $query-deskt) {
   .features__masthead--svg--images--apple--link {
     margin-left: 0;
@@ -45,7 +65,24 @@
     left: -2rem;
   }
 
+  .features__container {
+  @include reset-margin-rems;
+    max-width: 600px;
+    text-align: start;
+    padding-bottom: 200px;
+  }
+
+
+  .features__main--heading {
+    background-image: url(../img/bg_header.png);
+    background-repeat: no-repeat;
+    background-position-x: $px-size + 440px;
+    background-position-y: -192px;
+    background-color: $background;
+  }
+
   .features__masthead__heading {
+    background-color: $background;
     font-size: 2.6rem;
     line-height: 4rem;
   }

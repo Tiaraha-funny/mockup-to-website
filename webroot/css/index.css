@@ -35,6 +35,10 @@ p {
   font-size: 16px;
   color: #333333; }
 
+footer {
+  background: #00ADEE;
+  padding-inline-start: 2rem; }
+
 @media (min-width: 1440px) {
   .features__main {
     max-width: 1370px;
@@ -148,6 +152,45 @@ p {
 .football__player--image {
   background-image: url(../webroot/img/screen-shot-liverpool.png); }
 
+.logos {
+  column-gap: 20px;
+  row-gap: 20px;
+  display: grid;
+  place-content: center center;
+  grid-template-columns: repeat(3, 1fr); }
+
+.sports1 {
+  grid-column-start: 1;
+  grid-column-end: 2; }
+
+.sports2 {
+  grid-column-start: 3;
+  grid-column-end: 4; }
+
+.sports3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.sports4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.sports5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.sports6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5; }
+
 @media (min-width: 1440px) {
   .features__images {
     margin-bottom: 6rem; } }
@@ -157,3 +200,25 @@ p {
 
 icon__list li {
   margin-top: 50px; }
+
+.white__feature--image {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  margin-inline-start: 40px; }
+
+.icons__navigaton,
+.links__navigaton {
+  display: flex;
+  flex-direction: row; }
+
+.icons__navigaton li,
+.links__navigaton li {
+  margin: 10px; }
+
+.links__navigaton a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none; }

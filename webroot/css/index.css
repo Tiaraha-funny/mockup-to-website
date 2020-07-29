@@ -198,12 +198,13 @@ footer {
 .article__start::after {
   content: " ";
   display: block;
-  width: 360px;
+  width: 100%;
   height: 550px;
   background-image: url(../img/football-player-phone.png);
   background-repeat: no-repeat;
-  background-size: 835px;
-  background-position: center; }
+  background-size: 1600px;
+  background-position: center;
+  margin: auto; }
 
 .article__interface {
   margin-top: -50px; }

@@ -1,0 +1,27 @@
+@import "variable";
+
+.white__feature--image {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  margin-inline-start: 15px;
+}
+.icons__navigaton,
+.links__navigaton {
+  @include display_flex;
+  margin: 0;
+  padding: 0;
+
+}
+.icons__navigaton li,
+.links__navigaton li {
+  margin: 10px;
+}
+
+.links__navigaton a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+}

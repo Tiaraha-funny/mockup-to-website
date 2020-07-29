@@ -195,6 +195,16 @@ footer {
   .features__images {
     margin-bottom: 6rem; } }
 
+.article__start::after {
+  content: " ";
+  display: block;
+  width: 360px;
+  height: 550px;
+  background-image: url(../img/football-player-phone.png);
+  background-repeat: no-repeat;
+  background-size: 835px;
+  background-position: center; }
+
 .article__interface {
   margin-top: -50px; }
 

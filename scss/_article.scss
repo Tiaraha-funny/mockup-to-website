@@ -1,8 +1,18 @@
 @import "variable";
 
-.football__player--image {
+  .article__start {
+    &::after {
+      content: " ";
+      display: block;
+      width: 360px;
+      height: 550px;
+      background-image: url(../img/football-player-phone.png);
+      background-repeat: no-repeat;
+      background-size: 835px;
+      background-position: center;
+    }
+  }
 
-}
 .article__interface {
   margin-top: -50px;
 }
@@ -11,3 +21,14 @@ icon__list li {
   margin-top: 50px;
 }
 
+
+// .phone_mockup {
+//   position: relative;
+//   z-index: 0;
+// }
+
+// .football__player--image {
+//   position: absolute;
+//   transform: translate(38%, 23%);
+//   z-index: 1;
+// }

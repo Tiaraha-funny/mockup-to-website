@@ -205,12 +205,14 @@ icon__list li {
   font-weight: normal;
   font-size: 24px;
   line-height: 30px;
-  margin-inline-start: 40px; }
+  margin-inline-start: 15px; }
 
 .icons__navigaton,
 .links__navigaton {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  margin: 0;
+  padding: 0; }
 
 .icons__navigaton li,
 .links__navigaton li {

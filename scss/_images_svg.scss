@@ -11,9 +11,48 @@
 
 .football__player {
 }
+
 .football__player--image {
   background-image: url(../webroot/img/screen-shot-liverpool.png);
 }
+
+.logos {
+  column-gap: 20px;
+  row-gap: 20px;
+  display: grid;
+  place-content: center center;
+  grid-template-columns: repeat(3, 1fr);
+}
+.sports1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.sports2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.sports3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  @include grid_row;
+}
+.sports4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  @include grid_row;
+}
+.sports5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  @include grid_row;
+}
+.sports6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
 
 @media (min-width: $query-deskt) {
 

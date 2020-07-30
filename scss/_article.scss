@@ -39,13 +39,26 @@ icon__list li {
   .feature__experience--article {
     background-color: #00ADEE;
     opacity: 0.4;
+    // padding-bottom: 20px;
     }
 
-    // .article__start {
-    //   &::after {
-    //     background-position-x: 30%;
-    //     background-position-y: 50%;
-    //   }
+    .article__start--learning {
+      width: 480px;
+      height: 139px;
+      text-align: start;
+      padding-inline-start: 100px;
+      padding-block-start: 100px;
+      margin-block-end: 0;
+      margin-inline-end: 0;
+    }
+
+    .article__start {
+      &::before {
+        // background-size: 2000px;
+        background-position-x: 20%;
+        margin: auto;
+      }
+    }
 
   .icon__list {
     display: grid;

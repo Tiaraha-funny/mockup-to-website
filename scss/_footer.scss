@@ -26,3 +26,31 @@
   line-height: 21px;
   text-decoration: none;
 }
+
+
+@media (min-width: $query-deskt) {
+
+  .white__feature--image {
+
+  }
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  height: 127px;
+}
+
+.navigation {
+  justify-content: end;
+  align-items: flex-end;
+  order: 5;
+}
+
+.icons__navigaton {
+  justify-content: start;
+  align-items: start;
+  order: 1;
+}
+
+}

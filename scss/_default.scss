@@ -52,11 +52,4 @@ footer {
     @include reset-margin-auto;
 }
 
-  .features__container {
-    @include reset-margin-rems;
-    max-width: $max-width - 770px;
-    text-align: start;
-    padding-bottom: $max-width - 1170px;
-  }
-
 }

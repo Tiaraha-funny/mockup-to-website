@@ -14,7 +14,6 @@
     }
   }
 
-
 .article__interface {
   margin-top: -50px;
 }
@@ -22,10 +21,49 @@
 icon__list li {
   margin-top: 50px;
 }
-.experience {
+.features__experience {
   background: #FAFAFA;
 }
 
-.background__experience {
+.feature__experience--header {
   padding-block-start: 40px;
 }
+
+
+.icon__list li svg {
+  fill: #00ADEE;
+}
+
+
+@media (min-width: $query-deskt) {
+  .feature__experience--article {
+    background-color: #00ADEE;
+    opacity: 0.4;
+    }
+
+    // .article__start {
+    //   &::after {
+    //     background-position-x: 30%;
+    //     background-position-y: 50%;
+    //   }
+
+  .icon__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 20px;
+    grid-column: 20px;
+  }
+  .feature__experience--article p {
+    color: #ffff;
+  }
+
+  .feature__experience--header > h3 {
+    color: #ffff;
+  }
+
+  .icon__list li svg {
+    fill: white;
+  }
+
+}
+

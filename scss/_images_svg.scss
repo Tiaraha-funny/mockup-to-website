@@ -59,4 +59,12 @@
   .features__images {
     margin-bottom: 6rem;
   }
+
+  .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 278px;
+  }
 }

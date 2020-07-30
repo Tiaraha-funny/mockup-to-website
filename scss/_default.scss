@@ -43,7 +43,11 @@ footer {
 
 @media (min-width: $query-deskt) {
 
-  .features__main {
+  main {
+    margin: 0;
+  }
+
+  .features__main--heading {
     max-width: $max-width;
     @include reset-margin-auto;
 }

@@ -51,13 +51,7 @@ footer {
   .features__main--heading {
     max-width: 1370px;
     margin-inline-start: auto;
-    margin-inline-end: auto; }
-  .features__container {
-    margin-block-start: 2rem;
-    margin-inline-start: 6rem;
-    max-width: 600px;
-    text-align: start;
-    padding-bottom: 200px; } }
+    margin-inline-end: auto; } }
 
 .features__sitehead__heading {
   text-align: center; }
@@ -131,7 +125,8 @@ footer {
     margin-inline-start: 6rem;
     max-width: 600px;
     text-align: start;
-    padding-bottom: 200px; }
+    padding-bottom: 200px;
+    margin-top: 0; }
   .features__main--heading {
     background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
@@ -233,6 +228,17 @@ icon__list li {
   .feature__experience--article {
     background-color: #00ADEE;
     opacity: 0.4; }
+  .article__start--learning {
+    width: 480px;
+    height: 139px;
+    text-align: start;
+    padding-inline-start: 100px;
+    padding-block-start: 100px;
+    margin-block-end: 0;
+    margin-inline-end: 0; }
+  .article__start::before {
+    background-position-x: 20%;
+    margin: auto; }
   .icon__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

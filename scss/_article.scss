@@ -31,7 +31,7 @@ icon__list li {
   margin-top: 50px;
 }
 .features__experience {
-  background: #FAFAFA;
+  background-color: #FAFAFA;
 }
 
 .feature__experience--header {
@@ -55,8 +55,10 @@ icon__list li {
   }
 
   .feature__experience--article {
+    background-image: url(../img/background_blue_rectangles.svg);
     background-color: #00ADEE;
-    opacity: 0.4;
+    background-repeat: no-repeat;
+    opacity: 0.6;
     height: 589px;
     }
 
@@ -93,6 +95,7 @@ icon__list li {
     width: 350px;
     font-size: 16px;
     line-height: 23px;
+    font-family: $font-family;
   }
 
   .feature__experience--header > h3 {

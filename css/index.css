@@ -11,6 +11,7 @@
   src: local("Lato Bold"), local("lato-bold"), url(../fonts/lato-bold.woff2) format(woff2), url(../fonts/lato-bold.woff) format(woff); }
 
 body {
+  font-family: mylato;
   margin: 0; }
 
 img {
@@ -27,7 +28,7 @@ article {
   margin: 0; }
 
 h3 {
-  font-family: Lato;
+  font-family: mylato;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -101,6 +102,7 @@ footer {
   margin-right: 1rem; }
 
 .start-learn {
+  font-family: mylato;
   font-size: 16px;
   font-weight: bold;
   line-height: 21px;
@@ -111,6 +113,7 @@ footer {
   line-height: 150px; }
 
 .learn_more {
+  font-family: mylato;
   font-size: 16px;
   line-height: 21px;
   text-transform: lowercase; }
@@ -135,9 +138,11 @@ footer {
     background-color: #F4F6F9; }
   .features__masthead__heading {
     background-color: #F4F6F9;
+    font-family: mylato;
     font-size: 2.6rem;
     line-height: 4rem; }
   .features__masthead--description {
+    font-family: mylato;
     font-size: 1.5rem;
     line-height: 3rem;
     max-width: 560px; }
@@ -230,7 +235,7 @@ icon__list li {
   margin-top: 50px; }
 
 .features__experience {
-  background: #FAFAFA; }
+  background-color: #FAFAFA; }
 
 .feature__experience--header {
   padding-block-start: 40px; }
@@ -245,8 +250,10 @@ icon__list li {
   .article__logos > header {
     padding-top: 12px; }
   .feature__experience--article {
+    background-image: url(../img/background_blue_rectangles.svg);
     background-color: #00ADEE;
-    opacity: 0.4;
+    background-repeat: no-repeat;
+    opacity: 0.6;
     height: 589px; }
   .article__start--learning {
     width: 480px;
@@ -271,7 +278,8 @@ icon__list li {
     color: #ffff;
     width: 350px;
     font-size: 16px;
-    line-height: 23px; }
+    line-height: 23px;
+    font-family: mylato; }
   .feature__experience--header > h3 {
     color: #ffff; }
   .icon__list li svg {
@@ -279,6 +287,7 @@ icon__list li {
     text-align: start; } }
 
 .white__feature--image {
+  font-family: mylato;
   font-weight: normal;
   font-size: 24px;
   line-height: 30px;
@@ -299,6 +308,7 @@ icon__list li {
 
 .links__list--items a {
   color: #ffffff;
+  font-family: mylato;
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
@@ -317,16 +327,16 @@ icon__list li {
     flex-direction: row;
     justify-content: space-between;
     order: 2; }
+  .icons__list--items {
+    display: flex;
+    flex-direction: row;
+    order: 3; }
   .links__list--items li {
     margin-block-start: 16px;
     margin-inline-end: 40px; }
   .links__list--items li a {
     color: #ffffff;
     text-decoration: none; }
-  .icons__list--items {
-    display: flex;
-    flex-direction: row;
-    order: 3; }
   .white__feature--image,
   .icons__list--items,
   .links__list--items {

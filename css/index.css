@@ -1,17 +1,17 @@
 @font-face {
   font-family: mylato;
   font-style: normal;
-  font-weight: 400;
-  src: local("Lato Regular"), local("lato-regular"), url(../fonts/lato-regular.woff2) format(woff2), url(../fonts/lato-regular.woff) format(woff); }
+  font-weight: 700;
+  src: local("Lato Bold"), local("lato-bold"), url(../fonts/lato-bold.woff2) format(woff2), url(../fonts/lato-bold.woff) format(woff); }
 
 @font-face {
   font-family: mylato;
   font-style: normal;
-  font-weight: 700;
-  src: local("Lato Bold"), local("lato-bold"), url(../fonts/lato-bold.woff2) format(woff2), url(../fonts/lato-bold.woff) format(woff); }
+  font-weight: 400;
+  src: local("Lato Regular"), local("lato-regular"), url(../fonts/lato-regular.woff2) format(woff2), url(../fonts/lato-regular.woff) format(woff); }
 
 body {
-  font-family: mylato;
+  font-family: 'mylato', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0; }
 
 img {
@@ -28,18 +28,11 @@ article {
   margin: 0; }
 
 h3 {
-  font-family: mylato;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 28px;
   line-height: 37px;
   text-align: center;
-  color: #333333; }
-
-p {
-  font-family: mylato;
-  line-height: 23px;
-  font-size: 16px;
   color: #333333; }
 
 footer {
@@ -51,6 +44,11 @@ footer {
 @media (min-width: 1440px) {
   main {
     margin: 0; }
+  li p {
+    line-height: 23px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333; }
   .features__main--heading {
     max-width: 1370px;
     margin-inline-start: auto;
@@ -67,7 +65,9 @@ footer {
     margin: 0; } }
 
 .features__main--heading {
-  background-color: #F4F6F9; }
+  background-color: #F4F6F9;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px; }
 
 .features__masthead {
   display: block;
@@ -75,14 +75,12 @@ footer {
   padding: 0; }
 
 .features__masthead__heading {
-  font-family: mylato;
   line-height: 40px;
-  font-size: 30px;
+  font-size: 29px;
   letter-spacing: 0.03em;
   color: #333333; }
 
 .features__masthead--description {
-  font-family: mylato;
   line-height: 23px;
   font-size: 16px;
   color: #333333; }
@@ -90,8 +88,8 @@ footer {
 .features__masthead--lists {
   display: inline-flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: -40px; }
+  justify-content: space-between;
+  padding: 0; }
 
 .features__masthead--lists--items {
   margin: 0;
@@ -104,10 +102,8 @@ footer {
   margin-right: 1rem; }
 
 .start-learn {
-  font-family: mylato;
   font-size: 16px;
   font-weight: bold;
-  line-height: 21px;
   color: #00ADEE;
   text-decoration: none;
   text-transform: uppercase;
@@ -115,7 +111,6 @@ footer {
   line-height: 150px; }
 
 .learn_more {
-  font-family: mylato;
   font-size: 16px;
   line-height: 21px;
   text-transform: lowercase; }
@@ -236,6 +231,11 @@ footer {
 icon__list li {
   margin-top: 50px; }
 
+.icon__list li p {
+  margin-inline-end: 24px;
+  line-height: 23px;
+  font-size: 16px; }
+
 .features__experience {
   background-color: #FAFAFA; }
 
@@ -243,7 +243,15 @@ icon__list li {
   padding-block-start: 40px; }
 
 .icon__list li svg {
-  fill: #00ADEE; }
+  fill: #00ADEE;
+  margin-block-start: 50px; }
+
+article .get__start p {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  margin-inline-start: 18px;
+  margin-inline-end: 22px; }
 
 @media (min-width: 1440px) {
   .article__logos {

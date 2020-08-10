@@ -30,6 +30,11 @@
 icon__list li {
   margin-top: 50px;
 }
+.icon__list li p {
+  margin-inline-end: 24px;
+  line-height: 23px;
+  font-size: 16px;
+}
 .features__experience {
   background-color: #FAFAFA;
 }
@@ -40,8 +45,15 @@ icon__list li {
 
 .icon__list li svg {
   fill: #00ADEE;
+  margin-block-start: 50px;
 }
-
+article .get__start p {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  margin-inline-start: 18px;
+  margin-inline-end: 22px;
+}
 
 @media (min-width: $query-deskt) {
 

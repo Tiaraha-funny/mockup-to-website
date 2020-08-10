@@ -1,21 +1,22 @@
 @import "variable";
 
-@font-face {
-  font-family: $font-family;
-  font-style: normal;
-  font-weight: 400;
-  src:local('Lato Regular'),
-      local($filename-regular),
-      url(#{$path-regular}#{$filename-regular}#{$extension-regular2}) format(#{$format-regular2}),
-      url(#{$path-regular}#{$filename-regular}#{$extension-regular1}) format(#{$format-regular1}),
-}
 
 @font-face {
   font-family: $font-family;
   font-style: normal;
   font-weight: 700;
-  src:local('Lato Bold'),
+  src:local($filename-bold-capital),
       local($filename-bold),
       url(#{$path-bold}#{$filename-bold}#{$extension-bold2}) format(#{$format-bold2}),
       url(#{$path-bold}#{$filename-bold}#{$extension-bold1}) format(#{$format-bold1}),
+}
+
+@font-face {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 400;
+  src:local($filename-regular-capital),
+      local($filename-regular),
+      url(#{$path-regular}#{$filename-regular}#{$extension-regular2}) format(#{$format-regular2}),
+      url(#{$path-regular}#{$filename-regular}#{$extension-regular1}) format(#{$format-regular1}),
 }

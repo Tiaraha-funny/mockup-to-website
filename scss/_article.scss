@@ -70,33 +70,63 @@ article .get__start p {
     background-image: url(../img/background_blue_rectangles.svg);
     background-color: #00ADEE;
     background-repeat: no-repeat;
+    padding-block-end: 30px;
     opacity: 0.6;
     height: 589px;
     }
 
+    .article__start {
+      position: relative;
+    }
+
     .article__start--learning {
+      position: absolute;
+      top: 150px;
       width: 480px;
       height: 0px;
       text-align: start;
-      line-height: 10px;
       padding-inline-start: 150px;
-      padding-block-start: 100px;
       margin-block-end: 0;
-      margin-inline-end: 0;
+      margin-inline-end: 0
+    }
+
+    article .get__start p {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: start;
+    margin-inline-start: -3px;
+    margin-inline-end: 5px
+    }
+
+    .article__start--heading {
+      position: absolute;
+      top: 6.5rem;
     }
     .get__start {
-      height: 139px;
+      position: absolute;
+      top: 6rem;
+    }
+    .start-learn {
+      position: absolute;
+      bottom: 2rem;
+    }
+
+    .learn_more {
+      position: absolute;
+      top: 15rem;
     }
 
     .article__interface {
       text-align: start;
     }
 
-    .article__start {
+  .article__start {
       &::after {
-        background-position-x: 230px;
-        background-position-y: -580px;
-        margin: auto;
+      background-position: calc(50% + 255px);
+      padding: 0;
+      background-size: 2000px;
+      padding-block-end: 51px;
+      padding-block-start: 100px;
       }
     }
 

@@ -352,13 +352,14 @@ article .get__start p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     height: 127px; }
   .white__feature--image {
     order: 1; }
   .links__list--items {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    padding-block-end: 12px;
     order: 2; }
   .icons__list--items {
     display: flex;
@@ -370,7 +371,5 @@ article .get__start p {
   .links__list--items li a {
     color: #ffffff;
     text-decoration: none; }
-  .white__feature--image,
-  .icons__list--items,
-  .links__list--items {
-    padding-block-start: 3rem; } }
+  .white__feature--image {
+    padding-block-start: 5px; } }

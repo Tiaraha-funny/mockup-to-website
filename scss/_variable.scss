@@ -1,30 +1,30 @@
 $font-family: mylato;
-$color : #333333;
-$color-p: #4F4F4F;
-$background: #F4F6F9;
-$query-deskt: 1440px;
-$max-width: 1370px;
+$color: #333333;
+$color-p: #4f4f4f;
+$background: #f4f6f9;
+$query-deskt: 1350px;
+$max-width: 1320px;
 $px-size: 100px;
 
 //font-face for the bold
 
-$filename-bold: 'lato-bold';
-$filename-bold-capital: 'Lato Bold';
-$path-bold: '../fonts/';
-$extension-bold1: '.woff';
-$format-bold1: 'woff';
-$extension-bold2: '.woff2';
-$format-bold2: 'woff2';
+$filename-bold: "lato-bold";
+$filename-bold-capital: "Lato Bold";
+$path-bold: "../fonts/";
+$extension-bold1: ".woff";
+$format-bold1: "woff";
+$extension-bold2: ".woff2";
+$format-bold2: "woff2";
 
 // font-face of the regular
 
-$filename-regular: 'lato-regular';
-$filename-regular-capital: 'Lato Regular';
-$path-regular: '../fonts/';
-$extension-regular1: '.woff';
-$format-regular1: 'woff';
-$extension-regular2: '.woff2';
-$format-regular2: 'woff2';
+$filename-regular: "lato-regular";
+$filename-regular-capital: "Lato Regular";
+$path-regular: "../fonts/";
+$extension-regular1: ".woff";
+$format-regular1: "woff";
+$extension-regular2: ".woff2";
+$format-regular2: "woff2";
 
 @mixin reset-list {
   margin: 0;
@@ -47,7 +47,7 @@ $format-regular2: 'woff2';
   margin-inline-start: 6rem;
 }
 // about grid
-@mixin  grid_row {
+@mixin grid_row {
   grid-row-start: 2;
   grid-row-end: 3;
 }

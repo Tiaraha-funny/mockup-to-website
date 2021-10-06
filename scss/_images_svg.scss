@@ -1,8 +1,8 @@
 @import "variable";
 
 .features__images {
-  width: $max-width - 1250px;
-  height: $max-width - 1310px;
+  width: 120px;
+  height: 60px;
 }
 
 .svg__links {
@@ -50,9 +50,7 @@
   grid-row-end: 5;
 }
 
-
 @media (min-width: $query-deskt) {
-
   .features__images {
     margin-bottom: 6rem;
   }

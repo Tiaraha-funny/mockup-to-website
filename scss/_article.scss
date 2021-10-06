@@ -1,18 +1,18 @@
 @import "variable";
 
-  .article__start {
-    &::after {
-      content: " ";
-      display: block;
-      width: 100%;
-      height: 550px;
-      background-image: url(../img/football-player-phone.png);
-      background-repeat: no-repeat;
-      background-size: 1600px;
-      background-position: center;
-      margin: auto;
-    }
+.article__start {
+  &::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 550px;
+    background-image: url(../img/football-player-phone.png);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-position: center;
+    margin: auto;
   }
+}
 
 .article__interface {
   margin-top: -50px;
@@ -21,13 +21,18 @@
 .article__logos {
   padding-block-end: 24px;
   height: 409px;
-  }
-  .article__logos > header {
-    padding-top: 57px;
-    padding-bottom: -15px;
-  }
+}
 
-icon__list li {
+.feature__experience--article {
+  background-color: #fafafa;
+}
+
+.article__logos > header {
+  padding-top: 57px;
+  padding-bottom: -15px;
+}
+
+.icon__list li {
   margin-top: 50px;
 }
 .icon__list li p {
@@ -35,8 +40,14 @@ icon__list li {
   line-height: 23px;
   font-size: 16px;
 }
-.features__experience {
-  background-color: #FAFAFA;
+
+.article__logos {
+  background-color: #fafafa;
+}
+
+.article__logos--wrapper > header > h3 {
+  margin-block-start: 0;
+  padding-block-start: 50px;
 }
 
 .feature__experience--header {
@@ -44,7 +55,7 @@ icon__list li {
 }
 
 .icon__list li svg {
-  fill: #00ADEE;
+  fill: #00adee;
   margin-block-start: 50px;
 }
 article .get__start p {
@@ -56,7 +67,6 @@ article .get__start p {
 }
 
 @media (min-width: $query-deskt) {
-
   .article__logos {
     height: 240px;
     margin: 0;
@@ -68,73 +78,89 @@ article .get__start p {
 
   .feature__experience--article {
     background-image: url(../img/background_blue_rectangles.svg);
-    background-color: #00ADEE;
+    background-color: #00adee;
     background-repeat: no-repeat;
-    padding-block-end: 30px;
+    padding-block-end: 100px;
     opacity: 0.6;
     height: 589px;
-    }
+  }
 
-    .article__start {
-      position: relative;
-    }
+  .article__logos--wrapper {
+    max-width: $max-width;
+    margin: auto;
+  }
 
-    .article__start--learning {
-      position: absolute;
-      top: 150px;
-      width: 480px;
-      height: 0px;
-      text-align: start;
-      padding-inline-start: 150px;
-      margin-block-end: 0;
-      margin-inline-end: 0
-    }
+  .feature__experience--article__wrapper {
+    max-width: $max-width;
+    margin: auto;
+  }
 
-    article .get__start p {
+  .article__start {
+    position: relative;
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  .article__start--learning {
+    position: absolute;
+    top: 150px;
+    width: 480px;
+    height: 0px;
+    text-align: start;
+    padding-inline-start: 150px;
+    margin-block-end: 0;
+    margin-inline-end: 0;
+  }
+
+  article .get__start p {
     font-size: 16px;
     line-height: 23px;
     text-align: start;
     margin-inline-start: -3px;
-    margin-inline-end: 5px
-    }
+    margin-inline-end: 5px;
+  }
 
-    .article__start--heading {
-      position: absolute;
-      top: 6.5rem;
-    }
-    .get__start {
-      position: absolute;
-      top: 6rem;
-    }
-    .start-learn {
-      position: absolute;
-      bottom: 2rem;
-    }
+  .article__start--heading {
+    position: absolute;
+    top: 6.5rem;
+  }
+  .get__start {
+    position: absolute;
+    top: 6rem;
+  }
+  .start-learn {
+    position: absolute;
+    bottom: 2rem;
+  }
 
-    .learn_more {
-      position: absolute;
-      top: 15rem;
-    }
+  .learn_more {
+    position: absolute;
+    top: 15rem;
+  }
 
-    .article__interface {
-      text-align: start;
-    }
+  .article__interface {
+    text-align: start;
+  }
 
   .article__start {
-      &::after {
+    &::after {
       background-position: calc(50% + 255px);
       padding: 0;
       background-size: 2000px;
       padding-block-end: 51px;
       padding-block-start: 100px;
-      }
     }
+  }
+
+  .features__experience > * {
+    max-width: $max-width;
+    margin: auto;
+  }
 
   .icon__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: start;
-    padding-block-start: 60px;
   }
   .feature__experience--article p {
     color: #ffff;
@@ -152,6 +178,4 @@ article .get__start p {
     fill: white;
     text-align: start;
   }
-
 }
-

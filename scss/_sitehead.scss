@@ -1,17 +1,17 @@
 @import "variable";
 
 .features__sitehead__heading {
-    text-align: center;
+  text-align: center;
+  margin: 0;
 }
 
 @media (min-width: $query-deskt) {
-
-.features__sitehead {
+  .features__sitehead {
     text-align: start;
-}
+  }
 
-.features__sitehead__heading {
+  .features__sitehead__heading {
     text-align: start;
     margin: 0;
-}
+  }
 }

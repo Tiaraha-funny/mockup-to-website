@@ -32,7 +32,12 @@
 }
 
 @media (min-width: $query-deskt) {
-  footer {
+  footer > * {
+    max-width: $max-width;
+    margin: auto;
+  }
+
+  .footer__wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-around;

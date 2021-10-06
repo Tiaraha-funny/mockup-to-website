@@ -1,4 +1,7 @@
 @import "variable";
+.features__main--wrapper {
+  background-color: $background;
+}
 
 .features__main--heading {
   background-color: $background;
@@ -12,7 +15,6 @@
 }
 
 .features__masthead__heading {
-  // font-family: $font-family;
   line-height: 40px;
   font-size: 29px;
   letter-spacing: 0.03em;
@@ -20,7 +22,6 @@
 }
 
 .features__masthead--description {
-  // font-family: $font-family;
   line-height: 23px;
   font-size: 16px;
   color: $color;
@@ -30,7 +31,7 @@
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0;
+  padding-block-end: 50px;
 }
 
 .features__masthead--lists--items {
@@ -45,20 +46,20 @@
 }
 
 .start-learn {
-  // font-family: $font-family;
   font-size: 16px;
   font-weight: bold;
-  color: #00ADEE;
+  color: #00adee;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   line-height: 150px;
 }
 .learn_more {
-  // font-family: $font-family;
   font-size: 16px;
   line-height: 21px;
   text-transform: lowercase;
+  color: #00adee;
+  text-decoration: none;
 }
 
 @media (min-width: $query-deskt) {
@@ -69,26 +70,27 @@
   }
 
   .features__container {
-  @include reset-margin-rems;
-    max-width: 600px;
+    @include reset-margin-rems;
+    max-width: 1100px;
     text-align: start;
     padding-bottom: 200px;
+    margin-bottom: 188px;
     margin-top: 0;
   }
-
 
   .features__main--heading {
     background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-position-x: $px-size + 440px;
-    background-position-y: -192px;
-    background-color: $background;
+    background-position: 526px 100%;
+    max-width: $max-width;
+    margin: auto;
   }
 
   .features__masthead__heading {
     font-size: 36px;
     line-height: 48px;
     letter-spacing: 0.03em;
+    width: 50%;
   }
 
   .features__masthead--description {
@@ -99,5 +101,12 @@
 
   .features__masthead--lists {
     justify-content: left;
+    padding: 0;
+    padding-inline-end: 0;
+  }
+
+  .features__main--wrapper {
+    max-width: $max-width;
+    margin: auto;
   }
 }

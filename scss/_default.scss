@@ -1,10 +1,9 @@
 @import "variable";
 
 body {
-  font-family: 'mylato', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "mylato", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
 }
-
 
 img {
   @include reset-max-width;
@@ -12,6 +11,7 @@ img {
 
 ul {
   list-style: none;
+  margin: 0;
 }
 
 main {
@@ -34,17 +34,16 @@ h3 {
 footer {
   height: 210px;
   justify-content: space-between;
-  background: #00ADEE;
+  background: #00adee;
   padding-inline-start: 2rem;
 }
 
 @media (min-width: $query-deskt) {
-
   main {
     margin: 0;
   }
 
-   li p {
+  li p {
     // font-family: $font-family;
     line-height: 23px;
     font-weight: 400;
@@ -52,11 +51,9 @@ footer {
     color: $color;
   }
 
-
   .features__main--heading {
-    max-width: $max-width;
-    @include reset-margin-auto;
-}
-
-
+    padding-block-start: 40px;
+    // max-width: $max-width;
+    // @include reset-margin-auto;
+  }
 }

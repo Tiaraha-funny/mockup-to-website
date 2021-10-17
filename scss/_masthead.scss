@@ -74,7 +74,6 @@
     max-width: 1100px;
     text-align: start;
     padding-bottom: 200px;
-    margin-bottom: 188px;
     margin-top: 0;
   }
 
@@ -82,8 +81,6 @@
     background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
     background-position: 526px 100%;
-    max-width: $max-width;
-    margin: auto;
   }
 
   .features__masthead__heading {
@@ -105,8 +102,9 @@
     padding-inline-end: 0;
   }
 
-  .features__main--wrapper {
-    max-width: $max-width;
-    margin: auto;
+  .features__main--wrapper > * {
+    max-width: 1470px;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
   }
 }

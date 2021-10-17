@@ -1,5 +1,6 @@
 {
   "name": "front-end-assessment",
+  "source": "webroot/index.html",
   "version": "1.0.0",
   "description": "A mockup-to-website example to be used as an assessment",
   "main": "index.js",
@@ -14,10 +15,12 @@
   },
   "homepage": "https://github.com/Tiaraha-funny/front-end-assessment#readme",
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^6.0.1",
+    "parcel": "^2.0.0"
   },
   "scripts": {
     "css": "node-sass scss -o webroot/css",
-    "css:watch": "npm run css && node-sass scss -w -o webroot/css"
+    "css:watch": "npm run css && node-sass scss -w -o webroot/css",
+    "start": "parcel webroot/index.html"
   }
 }

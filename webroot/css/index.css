@@ -133,14 +133,11 @@ footer {
     max-width: 1100px;
     text-align: start;
     padding-bottom: 200px;
-    margin-bottom: 188px;
     margin-top: 0; }
   .features__main--heading {
     background-image: url(../img/bg_header.png);
     background-repeat: no-repeat;
-    background-position: 526px 100%;
-    max-width: 1320px;
-    margin: auto; }
+    background-position: 526px 100%; }
   .features__masthead__heading {
     font-size: 36px;
     line-height: 48px;
@@ -154,9 +151,10 @@ footer {
     justify-content: left;
     padding: 0;
     padding-inline-end: 0; }
-  .features__main--wrapper {
-    max-width: 1320px;
-    margin: auto; } }
+  .features__main--wrapper > * {
+    max-width: 1470px;
+    margin-inline-end: auto;
+    margin-inline-start: auto; } }
 
 .features__images {
   width: 120px;
@@ -167,7 +165,7 @@ footer {
   max-height: 100%; }
 
 .football__player--image {
-  background-image: url(../webroot/img/screen-shot-liverpool.png); }
+  background-image: url(../img/screen-shot-liverpool.png); }
 
 .logos {
   column-gap: 20px;
